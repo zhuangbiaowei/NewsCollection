@@ -1,0 +1,98 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.9)
+    childprocess (5.1.0)
+      logger (~> 1.5)
+    ethon (0.16.0)
+      ffi (>= 1.15.0)
+    event_stream_parser (1.0.0)
+    faraday (2.12.2)
+      faraday-net_http (>= 2.0, < 3.5)
+      json
+      logger
+    faraday-multipart (1.1.0)
+      multipart-post (~> 2.0)
+    faraday-net_http (3.4.0)
+      net-http (>= 0.5.0)
+    faraday-typhoeus (1.1.0)
+      faraday (~> 2.0)
+      typhoeus (~> 1.4)
+    ffi (1.17.1-aarch64-linux-gnu)
+    ffi (1.17.1-aarch64-linux-musl)
+    ffi (1.17.1-arm-linux-gnu)
+    ffi (1.17.1-arm-linux-musl)
+    ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x86_64-darwin)
+    ffi (1.17.1-x86_64-linux-gnu)
+    ffi (1.17.1-x86_64-linux-musl)
+    json (2.7.6)
+    logger (1.6.4)
+    multipart-post (2.4.1)
+    net-http (0.6.0)
+      uri
+    nokogiri (1.18.1-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.1-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.1-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.1-arm-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.1-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.1-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.1-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.1-x86_64-linux-musl)
+      racc (~> 1.4)
+    ollama-ai (1.3.0)
+      faraday (~> 2.10)
+      faraday-typhoeus (~> 1.1)
+      typhoeus (~> 1.4, >= 1.4.1)
+    pg (1.5.9)
+    racc (1.8.1)
+    retriable (3.1.2)
+    ruby-openai (7.1.0)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
+    rubyXL (3.4.33)
+      nokogiri (>= 1.10.8)
+      rubyzip (>= 1.3.0)
+    rubyzip (2.4.1)
+    safe_ruby (1.0.5)
+      childprocess (~> 5)
+    sequel (5.88.0)
+      bigdecimal
+    smart_prompt (0.1.8)
+      json (~> 2.7.1)
+      ollama-ai (~> 1.3.0)
+      retriable (~> 3.1.2)
+      ruby-openai (~> 7.1.0)
+      safe_ruby (~> 1.0.4)
+      yaml (~> 0.3.0)
+    typhoeus (1.4.1)
+      ethon (>= 0.9.0)
+    uri (1.0.2)
+    yaml (0.3.0)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  pg
+  rubyXL
+  sequel
+  smart_prompt
+
+BUNDLED WITH
+   2.6.1

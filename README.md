@@ -1,5 +1,9 @@
 # 借助LLM，搜集开源新闻
 
+## 安装依赖
+
+1. `bundle install`
+
 ## CREATE TABLE
 
 1. SEE `news.sql`

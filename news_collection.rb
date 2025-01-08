@@ -1,4 +1,4 @@
-require "../smart_prompt/lib/smart_prompt"
+require "smart_prompt"
 require "readline"
 require "sequel"
 require "io/console"
